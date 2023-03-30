@@ -8,13 +8,13 @@ Quellen:
 window.addEventListener(`load`, function handleLoad() {
     document.addEventListener(`mousemove`, setInfoBox);
     document.addEventListener(`click`, logInfo);
-    document.addEventListener(`key up`, logInfo);
+    document.addEventListener(`keyup`, logInfo);
     document.body.addEventListener(`click`, logInfo);
-    document.body.addEventListener(`key up`, logInfo);
+    document.body.addEventListener(`keyup`, logInfo);
     const divs = document.querySelectorAll("div");
     divs.forEach(function addingListener(div) {
         div.addEventListener(`click`, logInfo);
-        div.addEventListener(`key up`, logInfo);
+        div.addEventListener(`keyup`, logInfo);
     });
     // console.log("listeners added");
 });
@@ -25,7 +25,7 @@ function setInfoBox(_event) {
     // console.log(mouseY);
     let x = String(mouseX + 20);
     let y = String(mouseY + 20);
-    const infobox = document.getElementById("infobox");
+    const infobox = document.getElementById("InfoBox");
     infobox.innerHTML = "Mouse x: " + x + " Mouse y: " + y + "Event-Target: " + _event.target;
     // console.log("content wird angezeigt");
     infobox.style.position = "fixed";
