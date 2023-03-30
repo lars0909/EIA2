@@ -1,5 +1,10 @@
-#div0{
+div{
+    background-color: #ddffff;
+    height: 500px;
+    width: 40%;
+}
 
+#div0{
     margin-left: 8%;
 }
 
@@ -7,8 +12,16 @@
     float: right;
     margin-right: 8%;
 }
-div{
-    background-color: aliceblue;
-    height: 500px;
-    width: 40%;
+
+button{
+    margin-left: 35%;
+    margin-top: 175px;
+    height: 150px;
+    width: 30%;
+    border-radius: 25%;
+    border: 0px;
+}
+
+span{
+    position: fixed;
 }
