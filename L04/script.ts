@@ -1,5 +1,5 @@
 /*
-Aufgabe: L03_Aufgabenliste_Formular
+Aufgabe: L03_Aufgabenliste_DAtenstruktur
 Name: Lars Riehle
 Matrikel: 272305
 Datum: 13.04.2023
