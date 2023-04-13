@@ -36,11 +36,11 @@ function setInfoBox(_event) {
     infobox.innerHTML = "Mouse x: " + x + " Mouse y: " + y + "Event-Target: " + _event.target;
     // console.log("content wird angezeigt");
     infobox.style.position = "fixed";
-    infobox.style.top = y + "px";
+    infobox.style.top = x + "px";
     infobox.style.left = x + "px";
     // console.log("infoBox wird an Mouse geheftet");
-};
-
+}
+;
 function logInfo(_event) {
     console.log(_event.type + _event.target + _event.currentTarget + _event);
 }
