@@ -39,8 +39,8 @@ function setInfoBox(_event) {
     infobox.style.top = y + "px";
     infobox.style.left = x + "px";
     // console.log("infoBox wird an Mouse geheftet");
-}
-;
+};
+
 function logInfo(_event) {
     console.log(_event.type + _event.target + _event.currentTarget + _event);
 }
