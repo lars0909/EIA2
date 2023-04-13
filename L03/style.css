@@ -38,8 +38,8 @@ input {
     border-radius: 5px;
     background-color: #cccccc;
     border: 1px solid #C0C0C0;
-    width: 100%;
-    height: 1.5rem;
+    width: 45em;
+    height: 2em;
 }
 
 input::placeholder {
@@ -74,7 +74,25 @@ input:focus {
         transform: translateY(-1px);
     }
 }
-
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #cccccc;
+    border: 1px solid #C0C0C0;
+    width: 46em;
+    height: 3.1em;
+}
+select:hover {
+    background-color: #dddddd;
+    cursor: pointer;
+}
+select:focus{
+    outline: none;
+    background-color: #eeeeee;
+}
 #addTask {
     display: flex;
     justify-content: right;
