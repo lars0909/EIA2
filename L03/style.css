@@ -1,6 +1,20 @@
 body {
     margin: 0px;
+    background-color: #ffffcc;
 }
+  
+  @keyframes rainbow {
+    0% {
+      background-position: 0% 82%;
+    }
+    50% {
+      background-position: 100% 19%;
+    }
+    100% {
+      background-position: 0% 82%;
+    }
+  }
+  
 
 #TaskMaker {
     display: flex;
@@ -131,5 +145,33 @@ button:active {
 #ContainerTaskList {
     width: 100%;
     min-height: 2rem;
-    border-top: 3px solid #999999;
+    border-top: 3px solid#111111;
+}
+#TaskList {
+    margin-left: 25%;
+    text-align: center;
+}
+#TaskList li {
+    color: #C0C0C0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #555555;
+    border: 0px;
+    border-radius: 2rem;
+    padding: 0.5rem
+}
+#TaskList h1{
+    font-size: 48px;
+    color: #dddddd;
+    font-family:'Times New Roman', Times, serif
+}
+#TaskList button{
+    background-color: #CD2626;
+}
+#TaskList button:hover{
+    background-color: #DE3727;
+}
+
+#TaskList button:active {
+    background-color: #ff0000;
+    animation: pulse 0.2s ease-in-out;
 }
